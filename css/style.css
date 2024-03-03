@@ -1,0 +1,121 @@
+header{
+    box-shadow: 0px 5px 5px -5px #000000;
+    width: 100%;
+}
+
+.logo img{
+    height: 90px;
+}
+
+.navbar-nav .nav-link {
+    color: #922724;
+    font-size: x-large;
+    font-weight: 550;
+}
+.login:hover{
+    background-color: #922724;
+    transition: .6s;
+    font-weight: 700;
+}
+
+.btn{
+    background-color: #922724;
+    color: #ffff;
+}
+
+.reserva{
+    margin-left: .5rem;
+    width: 70%;
+}
+
+.nav-link, .login{
+    margin-right: 60px;
+}
+main{
+    margin-top: 5rem;
+}
+section{
+    margin-bottom: 12rem;
+}
+
+.col img
+{
+   width: 750px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.col h3{
+    font-weight: 700;
+}
+
+h1
+{
+  color: #922724;
+  font-size:420%;
+  font-weight: 600;
+}
+
+.carouselExampleDark{
+    height: 100vh;
+}
+
+.lugar {
+    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5Vh;
+}
+
+.caja{
+    width: 50px;
+    height: 50px;
+    flex: 1 0 21%;
+    margin: 5px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.t{
+    border-left: 3px solid black;
+  height: 100px;
+  left: 50%;
+  margin-left: 3px;
+  top: 0;
+}
+
+.info{
+    display: inline-block;
+    text-align: center;
+}
+
+.about p{
+    
+    font-size: larger;    
+    font-weight: bold;
+}
+
+.inicios{
+    margin-top: 5rem;
+}
+
+.empresa {
+    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8vh;
+  margin-bottom: 20Vh;
+}
+
+.vym{
+    width: 400px;
+  height: 300px;
+  margin: auto;  
+  text-align: justify;
+}
