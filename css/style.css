@@ -14,7 +14,7 @@ header{
 }
 .login:hover{
     background-color: #922724;
-    transition: .6s;
+    transition: .2s;
     font-weight: 700;
 }
 
@@ -118,4 +118,31 @@ h1
   height: 300px;
   margin: auto;  
   text-align: justify;
+}
+
+.star, 
+.star1,
+.star2,
+.star3,
+.star4,
+.star5{
+    font-size: 20px;
+    color: #bbb;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.star:hover,
+.star.checked,
+.star1:hover,
+.star1.checked,
+.star2:hover,
+.star2.checked,
+.star3:hover,
+.star3.checked,
+.star4:hover,
+.star4.checked,
+.star5:hover,
+.star5.checked{
+    color: gold;
 }
