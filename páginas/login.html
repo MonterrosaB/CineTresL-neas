@@ -12,58 +12,35 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar bg-body-tertiary">
           <div class="container-fluid">
-            <a class="logo" href="#">   
+            <a class="logo" href="../index.html" class="d-flex justify-content-center">   
               <img src="../img/TresL.svg" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-              aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse center " id="navbarTogglerDemo02">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Cartelera</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Mis Reservas</a>
-                </li>
-                <button class="btn login" onclick="" href="#">Inicio De Sesión</button>
-              </ul>
-            </div>
           </div>
         </nav>
       </header>
-
-      <div class="formulario">
-        <h1>Inicio de sesión</h1>
-        <form method="post">
-            <div class="username">
-                <input type="text" placeholder="Nombre de usuario" required id="usuario">
-                
-            </div>
-            <div class="contraseña">
-                <input type="password" placeholder="Contraseña" id="contraseña" required>
-                
-            </div>
-            <div class="recordar">¿olvido su contraseña</div>
-            <input type="button" class="buttonIni" id="button" onclick="entrar()" value="Iniciar">
-
-            <div class="registrarse">
-                Quiero hacer el <a href="">registro</a>
-            </div>
-        </form>
-      </div>
-
-
-
-
-
-
+      <main>
+        <div class="formulario">
+          <h1>Inicio de sesión</h1>
+          <form method="post">
+              <div class="username">
+                  <input type="text" placeholder="Nombre de usuario" required id="usuario">
+                  
+              </div>
+              <div class="contraseña">
+                  <input type="password" placeholder="Contraseña" id="contraseña" required>
+                  
+              </div>
+              <div class="recordar">¿olvidaste tu contraseña?</div>
+              <input type="button" class="buttonIni" id="button" onclick="entrar()" value="Iniciar">
+  
+              <div class="registrarse">
+                  Crear <a href="">cuenta.</a>
+              </div>
+          </form>
+        </div>
+      </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
